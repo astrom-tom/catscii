@@ -8,4 +8,5 @@ Year: GPL v3.0
 '''
 
 from .open_ascii_cat import load_cat
+from .extract_lines_columns import *
 

@@ -7,9 +7,11 @@ cat = 'test_error_bars.txt'
 import catscii
 
 CAT = catscii.load_cat(cat, True)
-print(CAT.Ncolumn)
-print(CAT.header)
 
+col = catscii.excolumn(CAT, 'X')
+line = catscii.exline(CAT, 'X', '2')
+
+print(line)
 
 
 
