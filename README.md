@@ -1,6 +1,6 @@
 # catscii
 
-**catscii** is a very simple python module that allows one to extract in a very easy way data from ascii catalogs. 
+**catscii** is a very simple python module that allows one to extract in a very easy way columns or line from ascii catalogs. 
 
 
 Installation
@@ -31,12 +31,14 @@ Then you must load your ascii catalog. For the purpose of this short tutorial we
     Z	 17	15	12
 
 
-To read the catalog you must run the **load_cat** method:
+To read the catalog you must create a catalog with the **load_cat** class:
 
-    cat = catscii.load_cat('test_catscii.txt', 'yes') 
+    >>cat = catscii.load_cat('test_catscii.txt', 'yes') 
 
-The first argument is the name of your catalog, and the second tells if there is a proper header. A proper header is when each columns has a name and starts with a '#' symbol (see the example above).
+The first argument is the name of your catalog, and the second tells if there is a proper header. A proper header is when each columns has a name and starts with a '#' symbol (see the example above). The catalog as some interesting attributes, like header or the catalog itself.
 
+    >>cat.header
+      ['A', 'B', 'C', 'D']
 
 Help
 ====
