@@ -46,6 +46,20 @@ The first argument is the name of your catalog, and the second tells if there is
        ['12', '15', '15'],
        ['13', '15', '12']], dtype='<U2')
 
+By default, the catalog is extracted with a string format.
+
+
+After you can extract columns calling the column name:
+
+    >>cat.get_column('A') 
+    array(['11', '15', '17'], dtype='<U2')
+
+By default the column is extracted in string format. If you want another type you can precise it like this:
+
+    >>cat.get_column('B', 'int')
+    array([11, 15, 17])
+
+
 Help
 ====
 
