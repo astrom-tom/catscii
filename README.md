@@ -20,6 +20,10 @@ Once you installed it you can get started importing the module:
 
     from catscii import catscii 
 
+
+Catalogs with header
+^^^^^^^^^^^^^^^^^^^^
+
 Then you must load your ascii catalog. For the purpose of this short tutorial we take a very easy catalog called *test_catscii.txt*: 
 
     #A	 B	C	D 
@@ -32,6 +36,7 @@ To read the catalog you must run the **load_cat** method:
 
     cat = catscii.load_cat('test_catscii.txt', 'yes') 
 
+The first argument is the name of your catalog, and the second tells if there is a proper header
 
 
 Help
