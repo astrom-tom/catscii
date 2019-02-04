@@ -20,7 +20,7 @@ Once you installed it you can get started importing the module:
 
     from catscii import catscii 
 
-Then you must load your ascii catalog. For the purpose of this short tutorial we take a very easy catalog: 
+Then you must load your ascii catalog. For the purpose of this short tutorial we take a very easy catalog called *test_catscii.txt*: 
 
     #A	 B	C	D 
 
@@ -29,6 +29,19 @@ Then you must load your ascii catalog. For the purpose of this short tutorial we
     Y	 15	15	15 
 
     Z	 17	15	12
+
+
+To read the catalog you can
+
+
+
+Help
+====
+
+You can also display the help of the module like this:
+
+
+
 
 
 Contribute
