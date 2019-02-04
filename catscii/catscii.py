@@ -15,13 +15,14 @@ Year: GPL v3.0
 import numpy
 
 ###metadata
-__version__ = 0.1
+__version__ = 1.0
 __author__ = 'R. THOMAS'
 __licence__ = 'GPLv3'
 __credits__ = "Romain Thomas"
 __maintainer__ = "Romain Thomas"
+__website__ = 'https://github.com/astrom-tom/catscii'
 __email__ = "the.spartan.proj@gmail.com"
-__status__ = "dev"
+__status__ = "released"
 __year__ = '2018-19'
 
 
