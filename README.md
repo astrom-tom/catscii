@@ -65,7 +65,11 @@ To extract a line you have to give a given column and a given value in that colu
     >> cat.get_line('A', 'X')
     [{'A': 'X', 'B': '11', 'C': '12', 'D': '13'}]
 
-It returns a dictionnary of key/value corresponding to column_name/value. 
+It returns a list dictionnaries of key/value corresponding to column_name/value. In the case you have multiple line with the same value for a given column, the list will grow:
+
+    >> cat.get_line('C', '15')
+    [{'A': 'Y', 'B': '15', 'C': '15', 'D': '15'},
+     {'A': 'Z', 'B': '17', 'C': '15', 'D': '12'}]  
 
 
 Help
