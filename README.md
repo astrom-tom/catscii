@@ -22,7 +22,7 @@ Once you installed it you can get started importing the module:
 
 Then you must load your ascii catalog. For the purpose of this short tutorial we take a very easy catalog: 
 
-   #A	 B	C	D 
+    #A	 B	C	D 
 
     X	 11	12	13 
 
