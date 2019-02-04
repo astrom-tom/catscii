@@ -28,7 +28,9 @@ Then you must load your ascii catalog. For the purpose of this short tutorial we
     Z	 17	15	12
 
 
-To read the catalog you can
+To read the catalog you must run the **load_cat** method:
+
+    cat = catscii.load_cat('test_catscii.txt', 'yes') 
 
 
 
