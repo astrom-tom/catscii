@@ -1,6 +1,5 @@
 from setuptools import setup
-import catscii.__info__ as cats
-
+import catscii.catscii as cats
 
 setup(
    name = 'catscii',

@@ -1,11 +1,6 @@
 README.md
 setup.py
-catscii/__info__.py
-catscii/__init__.py
 catscii/catscii.py
-catscii/errors.py
-catscii/extract_lines_columns.py
-catscii/open_ascii_cat.py
 catscii.egg-info/PKG-INFO
 catscii.egg-info/SOURCES.txt
 catscii.egg-info/dependency_links.txt
