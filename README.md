@@ -60,7 +60,7 @@ By default the column is extracted in string format. If you want another type yo
     array([11, 15, 17])
 
 
-To extract a line you have to give a given column and a given value in that column:
+To extract a line you have to give a given column and a given value in that column (as a string):
 
     >> cat.get_line('A', 'X')
     [{'A': 'X', 'B': '11', 'C': '12', 'D': '13'}]
