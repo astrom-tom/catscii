@@ -40,6 +40,12 @@ The first argument is the name of your catalog, and the second tells if there is
     >>cat.header
       ['A', 'B', 'C', 'D']
 
+    >>cat.cat
+    array([['X', 'Y', 'Z'],
+       ['11', '15', '17'],
+       ['12', '15', '15'],
+       ['13', '15', '12']], dtype='<U2')
+
 Help
 ====
 
