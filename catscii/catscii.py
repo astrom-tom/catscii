@@ -74,11 +74,11 @@ class load_cat(object):
         self.name = catalog
 
         if header:
-            self.get_header()
+            self.__get_header()
         else:
-            self.fake_header()
+            self.__fake_header()
 
-    def fake_header(self):
+    def __fake_header(self):
         '''
         In case there is no header in the catalog we create a fake one
         Attributes
@@ -104,7 +104,7 @@ class load_cat(object):
             self.header.append('Col%s'%(i+1))
 
         
-    def get_header(self):
+    def __get_header(self):
         '''
         This method take the catalog
         and extract the header
