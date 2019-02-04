@@ -53,10 +53,7 @@ The first argument is the name of your catalog, and the second tells if there is
     4
 
 
-By default, the catalog is extracted with a string format.
-
-
-After you can extract columns calling the column name:
+By default, the catalog is extracted with a string format. After you can extract columns calling the get_column method with:
 
     >>cat.get_column('A') 
     array(['11', '15', '17'], dtype='<U2')
@@ -67,7 +64,7 @@ By default the column is extracted in string format. If you want another type yo
     array([11, 15, 17])
 
 
-To extract a line you have to give a given column and a given value in that column (as a string):
+To extract a line you must use the get_line method. You have to give a given column and a given value in that column (as a string):
 
     >> cat.get_line('A', 'X')
     [{'A': 'X', 'B': '11', 'C': '12', 'D': '13'}]
