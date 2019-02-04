@@ -35,7 +35,7 @@ To read the catalog you must create a catalog with the **load_cat** class:
 
     >>cat = catscii.load_cat('test_catscii.txt', 'yes') 
 
-The first argument is the name of your catalog, and the second tells if there is a proper header. A proper header is when each columns has a name and starts with a '#' symbol (see the example above). The catalog as some interesting attributes, like header or the catalog itself.
+The first argument is the name of your catalog, and the second tells if there is a proper header. A proper header is when each columns has a name and starts with a '#' symbol (see the example above). The catalog as some interesting attributes, like header or the catalog itself, number of columns/rows.
 
     >>cat.header
       ['A', 'B', 'C', 'D']
@@ -45,6 +45,13 @@ The first argument is the name of your catalog, and the second tells if there is
        ['11', '15', '17'],
        ['12', '15', '15'],
        ['13', '15', '12']], dtype='<U2')
+
+    >>cat.Nrows
+    3
+
+    >>cat.Ncolumns
+    4
+
 
 By default, the catalog is extracted with a string format.
 
