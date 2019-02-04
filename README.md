@@ -24,9 +24,7 @@ Then you must load your ascii catalog. For the purpose of this short tutorial we
 
     #A	 B	C	D 
     X	 11	12	13 
-
     Y	 15	15	15 
-
     Z	 17	15	12
 
 
