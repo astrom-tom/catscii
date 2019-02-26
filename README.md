@@ -9,7 +9,7 @@ Installation
 catscii is currently placed in the pypi test repository.
 To install it 
 
-    pip install -i https://test.pypi.org/simple/ catscii
+    pip install catscii --user
 
 The only dependency is numpy.
 
