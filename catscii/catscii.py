@@ -15,7 +15,7 @@ Year: GPL v3.0
 import numpy
 
 ###metadata
-__version__ = 1.1
+__version__ = 1.3
 __author__ = 'R. THOMAS'
 __licence__ = 'GPLv3'
 __credits__ = "Romain Thomas"

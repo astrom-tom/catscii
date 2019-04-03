@@ -1,5 +1,8 @@
 # catscii
 
+.. image:: https://zenodo.org/badge/125589988.svg
+   :target: https://zenodo.org/badge/latestdoi/125589988
+
 **catscii** is a very simple python module that allows one to extract in a very easy way columns or line from ascii catalogs. 
 
 
@@ -180,4 +183,18 @@ Contribute
 If you want to contribute to catscii please drop me a mail [the.spartan.proj@gmail.com]
 
 
+Citation
+========
+If you are willing to cite catscii please use: 
+
+	@misc{catscii,
+	  author    = {Thomas ,R},
+	  title		= {catscii v1.2, 10.5281/zenodo.2587874}, 
+	  version   = {1.2},
+	  publisher = {Zenodo},
+	  month     = March,
+	  year      = 2019,
+	  doi       = {10.5281/zenodo.2587874},
+	  url       = {https://doi.org/10.5281/zenodo.2587874}
+	}
 
