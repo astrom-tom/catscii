@@ -1,9 +1,6 @@
 # catscii
 
-.. image:: https://zenodo.org/badge/125589988.svg
-   :target: https://zenodo.org/badge/latestdoi/125589988
-
-|image|
+[![DOI](https://zenodo.org/badge/125589988.svg)](https://zenodo.org/badge/latestdoi/125589988)
 
 **catscii** is a very simple python module that allows one to extract in a very easy way columns or line from ascii catalogs. 
 
