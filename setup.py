@@ -1,6 +1,6 @@
 from setuptools import setup
 
-__version__ = 1.3
+__version__ = '19.8.1'
 __author__ = 'R. THOMAS'
 __licence__ = 'GPLv3'
 __credits__ = "Romain Thomas"

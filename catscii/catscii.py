@@ -224,8 +224,8 @@ class load_cat(object):
                 indiv_line[self.header[j]] = i[j]
             Line.append(indiv_line)
 
-        if len(Line) < 1:
-            Line = Line[0]
+        #if len(Line) < 1:
+        #    Line = Line[0]
 
         return Line
 
